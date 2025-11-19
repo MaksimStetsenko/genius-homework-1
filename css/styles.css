@@ -1,0 +1,184 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v49-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/roboto-v49-latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v49-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 600;
+    src: url('../fonts/roboto-v49-latin-600italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v49-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    src: url('../fonts/roboto-v49-latin-700italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v21-latin-regular.woff2') format('woff2');
+}
+/* color var */
+:root{
+    --color-brand:#2B7FFF;
+    --color-primary-light:#FFFFFF;
+    --color-primary-dark:#011C44;
+    --color-secondary-dark-grey:#4A4A4A;
+    --color-secondary-light-grey:#747272;
+    --color-secondary-dark-blue:#011F4A;
+    --color-secondary-yellow:#FFD02B;
+}
+/* base */
+body{ 
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-primary-dark);
+    line-height: 1.5;
+}
+ul{ 
+    list-style-type: none;
+}
+/* navstyle link */
+.header-navigation-section-link{
+    text-decoration: none;
+    color: var(--color-primary-dark); 
+} 
+/* navstyle link active */
+.header-navigation-section-link:hover{
+    color: var(--color-brand);
+    font-weight: 700;
+}
+/* main-title style */
+.main-title{
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    color: var(--color-brand);
+    text-transform: capitalize;
+}
+/* cosmetics section button style */
+.cosmetic-clinic-section-button{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: var(--color-primary-dark);
+    background-color: var(--color-primary-light);
+    border: 2px, solid, var(--color-brand);
+    border-radius: 32px;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* cosmetics section button style active */
+.cosmetic-clinic-section-button:hover{
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+}
+/* cosmetics section p under button style */
+.cosmetic-clinic-section-buttontranscription{
+    font-size: 12px;
+}
+/* about us section header styles */
+.about-us-section-header{
+    font-family:'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+.about-us-section-header>span{
+    color: var(--color-brand);
+    text-transform: capitalize;
+}
+/* about us section article style */
+.about-us-section-article>p{
+    font-size: 22px;
+}
+.about-us-section-article>p>span{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+/*our advantages section h2 style  */
+#our-advantages-section>h2{
+    font-family:'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+#our-advantages-section>h2>span{
+    color: var(--color-brand);
+}
+/* our procedures section h2 style */
+#our-procedures-section>h2{
+    font-family:'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+#our-procedures-section>h2>span{
+    color: var(--color-brand);
+}
+/*our contacts section h2 style */
+#our-contacts-section>h2{
+    font-family:'Play', sans-serif ;
+    font-size: 64px;
+    font-weight: 700;
+}
+#our-contacts-section>h2>span{
+    color: var(--color-brand);
+}
+/* footer base style */
+.footer-beauty-zone{
+    font-size: 16px;
+    color: var(--color-primary-light);
+}
+/* footer nav style */
+.footer-section-nav-link{
+    text-decoration: none;
+    color: var(--color-primary-light);
+}
+/* footer address style */
+.footer-section-address-link{
+    text-decoration: none;
+    color: var(--color-primary-light);
+}
+/* politics style */
+.footer-beauty-zone>a{
+    text-decoration: none;
+    color: var(--color-primary-light);
+}
+/* copy right style */
+.footer-beauty-zone>p{
+    font-size: 13px;
+    color: var(--color-secondary-light-grey);
+}
